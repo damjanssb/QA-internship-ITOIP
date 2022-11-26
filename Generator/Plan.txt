@@ -1,0 +1,27 @@
+- 1.TEST SET WINDOWS FUNCTIONALITY, LOOCK
+	1. TC Start, Minimize, Maximize, Close functionality
+	2. TC Look of windows
+
+- 2.TEST SET NUMBER OF CHARACTERS
+	1. Positive TC Generate password with number "1" in textfield Number of characters
+	2. Positive TC Generate password with number "8" in textfield Number of characters
+	3. Positive TC Generate password with number "20" in textfield Number of characters
+	4. Positive TC Generate password with number "1000" in textfield Number of characters
+	5. Negative TC Generate password with number "0" in textfield Number of characters
+	6. Negative TC Generate password with negative number in textfield Number of characters
+	7. Negative TC Generate password with decimal number in textfield Number of characters
+	8. Negative TC Generate password without value in textfield Number of characters
+	9. Negative TC Generate password with letters in textfield Number of characters
+	10. Negative TC Generate password with special characters in textfield Number of characters
+
+- 3.TEST SET CHECKBOXES
+	1. Positive TC Generate password by 12 characters without upper letters, without numbers and without special characters
+	2. Positive TC Generate password by 12 characters with upper letters, without numbers and without special characters
+	3. Positive TC Generate password by 12 characters without upper letters, with numbers and without special characters
+	4. Positive TC Generate password by 12 characters without upper letters, without numbers and with special characters
+	5. Positive TC Generate password by 12 characters with upper letters, with numbers and without special characters
+	6. Positive TC Generate password by 12 characters with upper letters, without numbers and with special characters
+	7. Positive TC Generate password by 12 characters without upper letters, with numbers and with special characters
+	8. Positive TC Generate password by 12 characters with upper letters, with numbers and with special characters
+	9. Positive TC Generate password by 3 characters with upper letter, with number and with special character
+	10. Negative TC Generate password by 2 characters with upper letters, with numbers and with special characters	
