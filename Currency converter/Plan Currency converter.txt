@@ -1,0 +1,62 @@
+- 01.TEST SET WINDOWS, FUNCTIONALITY, LOOK
+	1. TC Start, Minimize, Maximize, Close functionality
+	2. TC Look of windows
+	3. Positive TC Select different currencies
+	4. Negative TC Entered text in the text field "Amount:"
+	5. Negative TC Entered special characters in the text field "Amount:"
+	6. Positive TC Check the "Transaction report"
+	7. Negative TC Choose the same currency in both dropdown buttons
+
+- 02.TEST SET CONVERT RSD TO EURO
+	1. Positive TC Convert positive integer from RSD to EURO
+	2. Negative TC Convert negative integer from RSD to EURO
+	3. Positive TC Convert value "0" from RSD to EURO
+	4. Negative TC Convert without input from RSD to EURO
+	5. Positive TC Convert real number with 2 decimal digits from RSD to EURO
+	6. Negative TC Convert real number with 3 decimal digits from RSD to EURO
+	7. Positive TC Convert a 12-digit integer from RSD to EURO
+	
+- 03.TEST SET CONVERT RSD TO USD
+	1. Positive TC Convert positive integer from RSD to USD
+	2. Negative TC Convert negative integer from RSD to USD
+	3. Positive TC Convert value "0" from RSD to USD
+	4. Negative TC Convert without input from RSD to USD
+	5. Positive TC Convert real number with 2 decimal digits from RSD to USD
+	6. Negative TC Convert real number with 3 decimal digits from RSD to USD
+	7. Positive TC Convert a 12-digit integer from RSD to USD
+
+- 04.TEST SET CONVERT EURO TO RSD
+	1. Positive TC Convert positive integer from EURO to RSD
+	2. Negative TC Convert negative integer from EURO to RSD
+	3. Positive TC Convert value "0" from EURO to RSD
+	4. Negative TC Convert without input from EURO to RSD
+	5. Positive TC Convert real number with 2 decimal digits from EURO to RSD
+	6. Negative TC Convert real number with 3 decimal digits from EURO to RSD
+	7. Positive TC Convert a 12-digit integer from EURO to RSD
+	
+- 05.TEST SET CONVERT EURO TO USD
+	1. Positive TC Convert positive integer from EURO to USD
+	2. Negative TC Convert negative integer from EURO to USD
+	3. Positive TC Convert value "0" from EURO to USD
+	4. Negative TC Convert without input from EURO to USD
+	5. Positive TC Convert real number with 2 decimal digits from EURO to USD
+	6. Negative TC Convert real number with 3 decimal digits from EURO to USD
+	7. Positive TC Convert a 12-digit integer from EURO to USD
+
+- 06.TEST SET CONVERT USD TO EURO
+	1. Positive TC Convert positive integer from USD to EURO
+	2. Negative TC Convert negative integer from USD to EURO
+	3. Positive TC Convert value "0" from USD to EURO
+	4. Negative TC Convert without input from USD to EURO
+	5. Positive TC Convert real number with 2 decimal digits from USD to EURO
+	6. Negative TC Convert real number with 3 decimal digits from USD to EURO
+	7. Positive TC Convert a 12-digit integer from USD to EURO
+	
+- 07.TEST SET CONVERT USD TO RSD
+	1. Positive TC Convert positive integer from USD to RSD
+	2. Negative TC Convert negative integer from USD to RSD
+	3. Positive TC Convert value "0" from USD to RSD
+	4. Negative TC Convert without input from USD to RSD
+	5. Positive TC Convert real number with 2 decimal digits from USD to RSD
+	6. Negative TC Convert real number with 3 decimal digits from USD to RSD
+	7. Positive TC Convert a 12-digit integer from USD to RSD
