@@ -1,0 +1,40 @@
+-01. Biblioteka test set BASIC
+	1. TC Start, Minimize, Resize, Close functionality
+	2. TC The appearance of the initial window
+	3. Positive TC Checking the possibility of entering all types of characters in text fields
+
+-02. Biblioteka test set REGULAR RENT
+	1. Positive TC Rent a book with valid information
+	2. Borded Value TC Rent a second book with valid information (by regular client)
+	3. Negative TC Rent already rented book
+	4. Negative TC Rent a book with incorrect book ID
+	5. Negative TC Rent a book with incorrect client ID
+	6. Negative TC Rent a book with incorrect book ID and client ID
+	7. Negative TC Rent a book without book ID
+	8. Negative TC Rent a book without client ID
+	9. Negative TC Rent a book without book ID and client ID
+	10. TC Check rent after restarting the application
+
+-03. Biblioteka test set RENT BY A PRIMARY CLIENT
+	1. Positive TC Rent a book with valid information
+	2. Positive TC Rent a third book with valid information
+	3. Borded Value TC Rent a fourth book with valid information
+	4. Negative TC Rent already rented book
+	5. Negative TC Rent a book with incorrect book ID
+	6. Negative TC Rent a book with incorrect client ID
+	7. Negative TC Rent a book with incorrect book ID and client ID
+	8. Negative TC Rent a book without book ID
+	9. Negative TC Rent a book without client ID
+	10. Negative TC Rent a book without book ID and client ID
+	11. Positive TC Rent a third book after return one book
+
+-04. Biblioteka test set RETURN BOOK
+	1. Positive TC Return a book with valid information
+	2. Positive TC Return three books with valid information (by primary client)
+	3. Negative TC Return already returned book
+	4. Negative TC Return a book with incorrect book ID
+	5. Negative TC Return a book with incorrect client ID
+	6. Negative TC Return a book with incorrect book ID and client ID
+	7. Negative TC Return a book without book ID
+	8. Negative TC Return a book without client ID
+	9. Negative TC Return a book without book ID and client ID
