@@ -1,0 +1,92 @@
+-01. Bankomat test set BASIC
+	1. TC Start, Minimize, Resize, Close functionality
+	2. TC The appearance of the initial window
+
+-02. Bankomat test set LOGIN
+	1. Positive TC Login with valid information
+	2. TC The appearance of the main window
+	3. Negative TC Login with invalid Account number
+	4. Negative TC Login with invalid PIN
+	5. Negative TC Login with letter in textfield Account number
+	6. Negative TC Login with letter in textfield PIN
+	7. Negative TC Login with special characters in textfield Account number
+	8. Negative TC Login with special characters in textfield PIN
+	9. Negative TC Login without Account number
+	10. Negative TC Login without PIN
+	11. Negative TC Login without Account nuber and PIN
+	12. Negative TC Login with both invalid information
+	13. Negative TC Login with one more digit after valid Account number
+	14. Negative TC Login with one more digit after valid PIN
+
+-03. Bankomat test set PAYOUT
+	1. TC The appearance of the Payout window
+	2. Positive TC Payout with valid information
+	3. TC Balance after success payout and restarting application
+	4. Negative TC Payout with amount more than have
+	5. Negative TC Payout with empty textfield Amount
+	6. Negative TC Payout with letter in textfield Amount
+	7. Negative TC Payout with special character in textfield Amount
+	8. Positive TC Payout with 2-decimal number in textfield Amount
+	9. Negative TC Payout with 3-decimal number in textfield Amount
+	10. Negative TC Payout with "0" in textfield Amount 
+	11. Negative TC Payout with negative number in textfield Amount
+	12. Negative TC Payout with empty textfield PIN
+	13. Negative TC Payout with invalid PIN 
+
+-04. Bankomat test set PAY IN
+	1. TC The appearance of the Pay in window
+	2. Positive TC Pay in with valid information
+	3. TC Balance after success pay in and restarting application
+	4. Positive TC Pay in with 12-digit number in textfield Amount
+	5. Negative TC Pay in with empty textfield Amount
+	6. Negative TC Pay in with letter in textfield Amount
+	7. Negative TC Pay in with special characters in textfield Amount 
+	8. Positive TC Pay in with 2-decimal number in textfield Amount
+	9. Negative TC Pay in with 3-decimal number in textfield Amount
+	10. Negative TC Pay in with "0" in textfield Amount 
+	11. Negative TC Pay in with negative number in textfield Amount
+	12. Negative TC Pay in with empty textfield PIN
+	13. Negative TC Pay in with invalid PIN
+
+-05. Bankomat test set TRANSACTION
+	1. TC The appearance of the Transaction window
+	2. Positive TC Transaction with valid information
+	3. TC Balance of both user after success transaction and restarted application
+	4. Negative TC Transaction with amount more than have
+	5. Negative TC Transaction with empty textfield Amount
+	6. Negative TC Transaction with letter in textfield Amount
+	7. Negative TC Transaction with special characters in textfield Amount 
+	8. Positive TC Transaction with 2-decimal number in textfield Amount
+	9. Negative TC Transaction with 3-decimal number in textfield Amount
+	10. Negative TC Transaction with "0" in textfield Amount 
+	11. Negative TC Transaction with negative number in textfield Amount
+	12. Negative TC Transaction with empty textfield Name
+	13. Negative TC Transaction with empty textfield Surname
+	14. Negative TC Transaction with empty textfield Account number
+	15. Negative TC Transaction with all textfield empty
+	16. Negative TC Transaction with incorrect information in textfield Name
+	17. Negative TC Transaction with incorrect information in textfield Surname
+	18. Negative TC Transaction with incorrect information in textfield Account number
+	19. Positive TC Transaction to own account
+	20. Negative TC Transaction with 17-digit number in textfield Account number
+	21. Negative TC Transaction with 19-digit number in textfield Account number
+
+-06. Bankomat test set CHANGE PIN
+	1. TC The appearance of the Change PIN window
+	2. Positive TC Change PIN with valid information
+	3. TC Check PIN after change PIN and restarted application
+	4. Negative TC Change PIN with incorrect old PIN
+	5. Negative TC Change PIN without new PIN
+	6. Negative TC Change PIN with 3-digit number in new PIN
+	7. Negative TC Change PIN with 5-digit number in new PIN
+	8. Negative TC Change PIN with letter in new PIN
+	9. Negative TC Change PIN with cpecial characters in new PIN
+
+-07. Bankomat test set LOGOUT
+	1. TC The appearance of the Logout window
+	2. Positive TC Logout confirm
+	3. Negative TC Logout cancel
+
+-08. Bankomat test set EXIT
+	1. TC Exit from the application
+	2. TC Start application after exit (without logout)
